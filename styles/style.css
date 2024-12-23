@@ -1,0 +1,113 @@
+.center_text{
+    text-align: center;
+    text-align-last: center;
+    font-family: Gotham, Tahoma, sans-serif;
+}
+
+.div{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px;
+    font-family: tahoma;
+    font-size: 1em;
+    color: #3f3f3f;
+    background-color: #fac08f;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 8px #444444;
+    -webkit-box-shadow: 3px 3px 8px #444444;
+    -moz-box-shadow: 3px 3px 8px #444444;
+    }    
+    
+.button:hover {
+    padding: 10px;
+    font-family: arial;
+    color: #FFFFFF;
+    background-color: #e36c09;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }
+
+.button_search {
+    text-decoration: none;
+    padding: 10px;
+    font-family: tahoma;
+    font-size: 1em;
+    color: #3f3f3f;
+    background-color: #fac08f;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 3px 3px 8px #444444;
+    -webkit-box-shadow: 3px 3px 8px #444444;
+    -moz-box-shadow: 3px 3px 8px #444;
+    margin-top: 10px;
+}
+
+.button_search:hover{
+    padding: 10px;
+    font-family: arial;
+    color: #FFFFFF;
+    background-color: #e36c09;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+}
+
+.search {
+    background: #f6f5f5;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 500px;
+
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.div_page{
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    text-align-last: center;
+    font-family: Gotham, Tahoma, sans-serif;
+  }
+  
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+
+  tbody tr:nth-child(even) {
+    background-color: #fac08f;
+  }
+  
